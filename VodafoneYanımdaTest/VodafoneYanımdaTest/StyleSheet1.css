@@ -1,0 +1,335 @@
+﻿^ContentPage {
+    background-color: #F2F0F1;
+}
+
+/* StackLayout's */
+.StackLayoutNav {
+    padding: 10;
+    vertical-align: middle;
+    background-color: #FFF;
+    margin: 0;
+}
+.StackLayout1{
+    padding: 10, 20;
+}
+.StackLayout2 {
+    padding: 10;
+    margin: 0;
+}.StackLayout3 {
+    padding: 10;
+    margin: 0;
+}
+.StackLayout4 {
+    padding: 10;
+    margin: 0, 20, 10, 0;
+}
+.StackLayout5 {
+    margin: 0, 0, 10, 0;
+}
+.StackLayout6 {
+    margin: 0, 0, 10, 0;
+}
+.StackLayout7 {
+    margin: 0, 0, 10, 0;
+}
+.StackLayout8 {
+    margin: 0, 0, 10, 0;
+}
+.StackLayout9 {
+    padding: 10, 10, 10, 0;
+    margin: 0, 20, 10, 0;
+}
+.StackLayout10 {
+    padding: 10, 10, 10, 0;
+    margin: 0, 20, 10, 0;
+}
+.StackLayout12 {
+    padding: 10;
+    margin: 0;
+}
+
+
+/* Frame's */
+.Frame1 {
+    border-radius: 5;
+    margin: 0, 0, 10, 0;
+    padding: 5, 5, 0, 0;
+    background-color: #FFF;
+    width: 165;
+}
+.Frame2 {
+    border-radius: 5;
+    margin: 0, 0, 10, 0;
+    padding: 5, 5, 0, 0;
+    background-color: #5C6061;
+    width: 170;
+}
+.Frame3 {
+    border-radius: 5;
+    margin: 0, 20, 10, 0;
+    padding: 5, 5, 0, 0;
+    background-color: #FFF;
+}
+.Frame4 {
+    border-radius: 5;
+    margin: 0, 0, 10, 0;
+    padding:10;
+    background-color: #F1F1F1;
+    width: 165;
+}
+.Frame5 {
+    border-radius: 5;
+    margin: 0, 0, 10, 0;
+    padding: 10;
+    background-color: #CE0000;
+}
+.Frame6 {
+    border-radius: 5;
+    padding: 10;
+    background-color: #CE0000;
+    margin: 0, 0, 10, 0;
+}
+.Frame7 {
+    border-radius: 5;
+    margin: 0, 0, 10, 0;
+    padding: 10;
+    background-color: #FFF;
+}
+.Frame8 {
+    border-radius: 5;
+    margin: 0, 0, 10, 0;
+    padding: 10, -10, 0, 0;
+    background-color: #CE0000;
+}
+.Frame9 {
+    border-radius: 5;
+    margin: 0, -5, 10, 0;
+    padding: 10, -10, 0, 0;
+    background-color: #FFF;
+}
+.Frame10 {
+    border-radius: 5;
+    margin: 0, 20, 10, 0;
+    padding: 5, 5, 0, 0;
+    background-color: #FFF;
+    height: 165;
+    width: 180;
+}
+.Frame11 {
+    border-radius: 5;
+    margin: 0, 20, 10, 0;
+    padding: 5, 5, 0, 0;
+    background-color: #5C6061;
+    height: 165;
+    width: 180;
+}
+.Frame12 {
+    border-radius: 5;
+    margin: 0, 20, 10, 0;
+    padding: 5, 5, 0, 0;
+    background-color: #FFF;
+    height: 165;
+    width: 180;
+}
+
+
+/* Label's */
+.LabelNav {
+    font-size: 20;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.Label2-1 {
+    font-size: 16;
+    font-style: bold;
+}
+.Label2-2 {
+    margin: 0, 0, 0, 10;
+    font-size: 14;
+    font-style: bold;
+}
+.Label2-3 {
+    margin: 0, 0, 0, 10;
+    font-size: 16;
+    color: #FFF;
+    font-style: bold;
+}
+.Label2-4 {
+    margin: 0, 0, 0, 10;
+    font-size: 14;
+    color: #FFF;
+}
+.Label3-1 {
+    font-size: 16;
+    font-style: bold;
+}
+.Label3-2 {
+    margin: 0, 0, 0, 10;
+}
+.Label4-1 {
+    margin: 0 0 -2 -10;
+    font-size: 16;
+    font-style: bold;
+    color: #D50100;
+}
+.Label4-2 {
+    margin: 0, 0, 0, -10;
+    font-size: 16;
+    font-style: bold;
+    color: #FFB84C;
+}
+.Label4-3 {
+    margin: 0, 0, 0, -10;
+    font-size: 16;
+    font-style: bold;
+    color: #FFB84C;
+}
+.Label4-4 {
+    font-size: 16;
+    font-style: bold;
+    color: #D50100;
+}
+.Label5-1 {
+    margin: 0, 0, 0, -10;
+    color: #FFF;
+    font-size: 16;
+    font-style: bold;
+}
+.Label5-2 {
+    margin: 0, 0, 0, -10;
+    color: #FFF;
+    font-size: 12;
+}
+.Label5-3 {
+    color: #FFF;
+    font-size: 12;
+    font-style: bold;
+}
+.Label6-1 {
+    color: #FFF;
+    font-size: 18;
+    font-style: bold;
+    height: 200;
+    width: 135;
+}
+.Label7-1 {
+    color: #CE0000;
+    font-size: 18;
+    font-style: bold;
+    height: 200;
+    width: 145;
+}
+.Label8-1 {
+    color: #FFF;
+    font-size: 16;
+    font-style: bold;
+}
+.Label8-2 {
+    color: #FFF;
+    font-size: 12;
+    font-style: bold;
+}
+.Label9-1 {
+    color: black;
+    font-size: 11;
+    font-style: bold;
+    margin: 0, 0, 0, 10;
+}
+.Label9-2 {
+    font-size: 11;
+    padding: 0, 0, 0, 10;
+}
+
+
+
+/* Label Main's */
+.LabelMain {
+    margin: 0, 10, 0, 10;
+    font-size: 24;
+    font-style: bold;
+}
+
+
+
+ /* Button's */
+.BtnDefault {
+    background-color: #E90003;
+    border-radius: 10;
+    color: #FFF;
+    text-transform: none;
+    font-size: 16;
+    padding: 0;
+    height: 35;
+ }
+.BtnClick {
+    background-color: #FFF;
+    border-radius: 10;
+    color: #CE0000;
+    font-style: bold;
+    text-transform: none;
+    font-size: 12;
+    height: 12;
+    padding: -20;
+    margin: 0 -25 0 0;
+}
+.BtnMoreRed {
+    background-color: #FFF;
+    border-radius: 10;
+    color: #CE0000;
+    font-style: bold;
+    text-transform: none;
+    font-size: 16;
+    height: 12;
+    padding: -20;
+    margin: -80, 5, 0, 10;
+}
+.BtnMoreWhite {
+    background-color: #CE0000;
+    border-radius: 10;
+    color: #FFF;
+    font-style: bold;
+    text-transform: none;
+    font-size: 16;
+    height: 12;
+    padding: -20;
+    margin: -80, 0, 0, 10;
+}
+
+/* Image's */
+.Image1{
+    width: 40;
+    height: 40;
+}
+.Image2 {
+    margin: 0, -40, 0, 0;
+    width: 135;
+    height: 150;
+    }
+.Image3 {
+    margin: 70, -20, -20, 0;
+    width: 70;
+}
+.Image4 {
+    margin: 0, -25, 0, 0;
+    width: 135;
+    height: 150;
+}
+.Image5 {
+    margin: 0, 5, 0, 0;
+    width: 60;
+}
+.Image6 {
+    margin: 0, -150, -20, 0;
+    width: 100;
+}
+.Image7 {
+    margin: 0, -165, -20, 0;
+    width: 80;
+}
+.Image8 {
+    margin: 210, -70, 0, 0;
+    width: 120;
+}
+

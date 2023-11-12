@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VodafoneYanımdaTest.MainPage"
+             
+             Title="Yanımda'ya Hoş geldiniz">
+    
+    <!-- Icon Ekleme -->
+    <NavigationPage.TitleView>
+        <StackLayout StyleClass="StackLayoutNav" 
+                     Orientation="Horizontal" 
+                     Spacing="10">
+            <Image StyleClass="Image1" 
+                   Source="icon.jpg"/>
+            <Label StyleClass="LabelNav" 
+                   Text="Yanımda'ya Hoş Geldiniz"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+
+    <ScrollView>
+        <StackLayout StyleClass="StackLayout1">
+            <StackLayout Orientation="Horizontal">
+                <Frame StyleClass="Frame1">
+
+                    <StackLayout StyleClass="StackLayout2">
+                        <Label StyleClass="Label2-1" 
+                               Text="Vodafoneluyum"/>
+                        <Label StyleClass="Label2-2" 
+                               Text="Vodafone müşterisiysen sana özel avantajlardan yararlanmak için hemen giriş yap."/>
+                        <Button StyleClass="BtnDefault" 
+                                Text="Giriş Yap"/>
+                    </StackLayout>
+                </Frame>
+                <Frame StyleClass="Frame2">
+
+                    <StackLayout StyleClass="StackLayout2"
+                                 Padding="10"
+                                 Margin="0">
+                        <Label StyleClass="Label2-3" 
+                               Text="Vodafonelu değilim" />
+                        <Label StyleClass="Label2-4" 
+                               Text="Vodafonelu değilsen , sana özel avantajlardan yararlanmak için hemen giriş yap."/>
+                        <Button StyleClass="BtnDefault" 
+                                Text="Giriş Yap"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <StackLayout>
+                <Frame StyleClass="Frame3">
+
+                    <StackLayout StyleClass="StackLayout4">
+                        <Label StyleClass="Label3-1" 
+                               Text="Vodafone Evde İnternetliyim"/>
+                        <Label StyleClass="Label3-2"
+                               Text="Hemen giriş yap, avantajları yakala."/>
+                        <Button StyleClass="BtnDefault" 
+                                Text="Giriş Yap"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <Label StyleClass="LabelMain" 
+                   Text="Alışverişe Başla!"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame  StyleClass="Frame4">
+                    <StackLayout StyleClass="StackLayout5">
+                        <Label StyleClass="Label4-1"
+                                Text="Market Yanımda'nın"/>
+                        <Label StyleClass="Label4-2"
+                                Text="Kazandıran"/>
+                        <Label StyleClass="Label4-3"
+                                Text="İndirimleri"/>
+                        <Label StyleClass="Label4-4" 
+                               Text="Burada!"/>
+
+                        <Image StyleClass="Image2" 
+                               Source="image_1_1.png"/>
+                        <Image StyleClass="Image3" 
+                               Source="imagex.jpg"/>
+                    </StackLayout>
+                </Frame>
+                <Frame  StyleClass="Frame5">
+                    <StackLayout StyleClass="StackLayout6">
+                        <Label StyleClass="Label5-1" 
+                               HorizontalOptions="Center"
+                               Text="Her Şey Yanımda"/>
+                        <Label StyleClass="Label5-2"  
+                               HorizontalOptions="Center" 
+                                Text="Milyonlarca Ürün"/>
+                        <Label StyleClass="Label5-3"  
+                               HorizontalOptions="Center" 
+                               Text="Çok Uygun Fiyata"/>
+                        
+                        <Image StyleClass="Image4" 
+                               Source="image_2_1.png"/>
+                        <Button StyleClass="BtnClick" 
+                                Text="Hemen Tıkla"/>
+                        <Image StyleClass="Image5" 
+                               Source="imagex2.jpg"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+
+            <Label StyleClass="LabelMain"  
+                   Text="Vodafone'lu Ol"/>
+
+
+            <StackLayout Orientation="Horizontal">
+                <Frame  StyleClass="Frame6">
+                    <StackLayout StyleClass="StackLayout7">
+                        <Label StyleClass="Label6-1" 
+                               Text="Faturalı Tarifeler"/>
+                        <Image StyleClass="Image6" 
+                               Source="simKart1"/>
+                        <Button StyleClass="BtnMoreWhite" 
+                                Text="İncele >"/>
+                    </StackLayout>
+                </Frame>
+                <Frame  StyleClass="Frame7">
+                    <StackLayout StyleClass="StackLayout8">
+                        <Label StyleClass="Label7-1" 
+                               Text="Faturasız Tarifeler"/>
+                        <Image StyleClass="Image7" 
+                               Source="simKart2" />
+                        <Button StyleClass="BtnMoreRed" 
+                                Text="İncele >"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            
+            <Label StyleClass="LabelMain"  
+                   Text="Aktivasyon"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame  StyleClass="Frame6">
+                    <StackLayout StyleClass="StackLayout7">
+                        <Label StyleClass="Label6-1" 
+                               Text="Faturalı Tarifeler"/>
+                        <Image StyleClass="Image6" 
+                               Source="simKart1"/>
+                        <Button StyleClass="BtnMoreWhite" 
+                                Text="İncele >"/>
+                    </StackLayout>
+                </Frame>
+                <Frame  StyleClass="Frame7">
+                    <StackLayout StyleClass="StackLayout8">
+                        <Label StyleClass="Label7-1" 
+                               Text="Faturasız Tarifeler"/>
+                        <Image StyleClass="Image7" 
+                               Source="simKart2" />
+                        <Button StyleClass="BtnMoreRed" 
+                                Text="İncele >"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+
+            <Label StyleClass="LabelMain" 
+                   Text="Vodafone'lu Ol"/>
+
+            <StackLayout Orientation="Vertical">
+                <Frame  StyleClass="Frame8">
+
+                    <StackLayout StyleClass="StackLayout9">
+                        <Label StyleClass="Label8-1" 
+                               Text="Size Özel"/>
+                        <Label StyleClass="Label8-1"
+                               Text="avantajlı teklifler"/>
+                        <Label StyleClass="Label8-1" 
+                               Text="Vodafone'da!"/>
+                        <Label StyleClass="Label8-2"
+                               Text="Vodafone'lu olmak için hemen tıklayın!"/>
+                        <Image StyleClass="Image8" 
+                               Source="vodafoneHand.png"/>
+
+                    </StackLayout>
+                </Frame>
+                <Frame  StyleClass="Frame9">
+                    <StackLayout StyleClass="StackLayout10">
+                        <Label StyleClass="Label9-1" 
+                               Text="85 TL'den başlayan size özel avantajlı tekliflerle Vodafone'lu olun!"/>
+                        <Label StyleClass="Label9-2" 
+                               Text="Vodafone'lu Ol"/>
+                    </StackLayout>
+                </Frame>
+
+
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal">
+                        <Frame  StyleClass="Frame10">
+                            <StackLayout StyleClass="StackLayout11" >
+                                <Label StyleClass="Label2-1" 
+                                       Text="Vodafoneluyum"/>
+                                <Label StyleClass="Label2-2" 
+                                       Text="Vodafone müşterisiysen sana özel avantajlardan yararlanmak için hemen giriş yap."/>
+                                <Button StyleClass="BtnDefault" 
+                                        Text="Giriş Yap"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame  StyleClass="Frame11">
+
+                            <StackLayout StyleClass="StackLayout11">
+                                <Label StyleClass="Label2-3" 
+                                       Text="Vodafonelu değilim"/>
+                                <Label StyleClass="Label2-4" 
+                                       Text="Vodafonelu değilsen , sana özel avantajlardan yararlanmak için hemen giriş yap."/>
+                                <Button StyleClass="BtnDefault" 
+                                        Text="Giriş Yap"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame  StyleClass="Frame12">
+                            <StackLayout StyleClass="StackLayout11">
+                                <Label StyleClass="Label2-1" 
+                                       Text="Vodafoneluyum"/>
+                                <Label StyleClass="Label2-2" 
+                                       Text="Vodafone müşterisiysen sana özel avantajlardan yararlanmak için hemen giriş yap."/>
+                                <Button StyleClass="BtnDefault" 
+                                        Text="Giriş Yap"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
